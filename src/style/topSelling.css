@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --green: #89bf33;
+  --white: rgba(255, 255, 255, 0.918);
+  --light: rgba(255, 255, 255, 0.74);
+  --grey: #dfe2d7;
+}
+.containerTS {
+  background: #dee2d1;
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+}
+.headingTS {
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+.headingTS h1 {
+  color: #89bf33;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.contentTS {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.1rem;
+  margin-top: 1rem;
+  /* margin-bottom: 1rem; */
+}
+.verticalLineTS {
+  border-left: 0.15rem solid var(--green);
+  height: 51.2vh;
+  margin-left: 4rem;
+}
+.productsTS h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 0.8rem;
+    margin-top: 0.25rem;
+    
+}
+.last{
+    margin-bottom: 1rem;
+}

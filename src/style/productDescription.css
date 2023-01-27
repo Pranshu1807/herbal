@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --green: #89bf33;
+  --white: rgba(255, 255, 255, 0.918);
+  --light: rgba(255, 255, 255, 0.74);
+  --grey: #d1d3cb;
+}
+.containerPD {
+  display: flex;
+  flex-direction: column;
+  height: 285vh;
+  background-color: var(--grey);
+}
+.headingDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headingPD {
+  width: 21rem;
+  height: 2.2rem;
+  border: 1px solid var(--green);
+  margin-top: 2rem;
+  background: var(--green);
+  border-radius: 1rem;
+  text-align: center;
+}
+.headingPD h1 {
+  font-size: 1.8rem;
+  color: var(--white);
+}
+.ProductsPD {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.ProductsPD h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.ProductsHeading {
+  font-weight: 700;
+}
+.ProductEnding {
+  margin-bottom: 1.2rem;
+}
+.HorizontalLine {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.HorizontalLine hr {
+  margin-bottom: 2rem;
+  background-color: #a4a5a1;
+  height: 0.02rem;
+}
+.DoubleLine {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.DoubleLine hr {
+  margin-bottom: 0.1rem;
+  background-color: #a4a5a1;
+  height: 0.02rem;
+}

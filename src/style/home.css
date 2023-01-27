@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --green: #89bf33;
+  --white: rgba(255, 255, 255, 0.918);
+  --light: rgba(255, 255, 255, 0.74);
+  --grey: #dfe2d7;
+}
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  height: 85vh;
+  background: #89bf33;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+.nav-links img{
+    height: 4rem;
+    width: 3rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+.nav-links a{
+    text-decoration: none;
+}
+.nav-links li {
+  color: var(--white);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.HomeContent {
+  display: flex;
+  flex-direction: row;
+}
+.ImageHome {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+  margin-top: 3.6rem;
+}
+.ImageHome img {
+  height: 11rem;
+  width: 20rem;
+}
+.Image2 {
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+.BannerHome {
+  margin-left: 9rem;
+}
+.BannerHome h1 {
+  font-weight: 300;
+  color: rgb(10, 10, 10);
+  font-size: 3.8rem;
+  margin-top: 6rem;
+}
+.BannerHome h2 {
+  font-weight: 300;
+  font-size: 3.6rem;
+  color: rgb(10, 10, 10);
+  margin-top: 1rem;
+}
+.BannerHome h3 {
+  color: white;
+  margin-top: 1.3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.BannerHome button {
+  height: 2rem;
+  width: 8rem;
+  color: white;
+  padding: 0.4rem 1rem;
+  background-color: black;
+  margin-left: 7rem;
+  margin-top: 3rem;
+  font-weight: 500;
+}

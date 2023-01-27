@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Benefits from "./benefits";
+import DarkRoots from "./darkRoots";
+import AboutUs from "./AboutUs";
+import TopSelling from "./topSelling";
+import ProductDescription from "./productDescription";
+import Doctors from "./Doctors";
+import ContactUs from "./ContactUs";
+import OurProducts from "./OurProducts";
+import Home from "./home";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home></Home>
+      <OurProducts></OurProducts>
+      <Benefits></Benefits>
+      <DarkRoots></DarkRoots>
+      <AboutUs></AboutUs>
+      <TopSelling></TopSelling>
+      <ProductDescription></ProductDescription>
+      <Doctors></Doctors>
+      <ContactUs></ContactUs>
     </div>
   );
 }

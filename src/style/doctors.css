@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --green: #89bf33;
+  --white: rgba(255, 255, 255, 0.918);
+  --light: rgba(255, 255, 255, 0.74);
+  --grey: #dfe2d7;
+}
+.containerDoctor {
+  display: flex;
+  flex-direction: column;
+  height: 187vh;
+  background-color: var(--grey);
+  text-align: center;
+  align-items: center;
+}
+.headingDoctor {
+  margin-top: 2rem;
+  color: var(--green);
+  font-size: 2.9rem;
+  font-weight: 600;
+}
+.Directors {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  align-items: center;
+}
+.Doctors {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  align-items: center;
+}
+.DirectorInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+.DoctorsInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  height: 36rem;
+  max-width: 19rem;
+  background: var(--white);
+}
+.DirectorInfo img {
+  height: 20rem;
+  width: 22rem;
+}
+.DoctorsInfo img {
+  height: 20rem;
+  width: 19rem;
+}
+.DirectorDetails {
+  width: 16rem;
+  height: 3.2rem;
+  border: 1px solid var(--green);
+  margin-top: 1.3rem;
+  background: var(--green);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.DoctorDetails {
+  width: 19rem;
+  height: 4rem;
+  border: 2px solid var(--green);
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+  background: var(--green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DoctorsInfo h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 22rem;
+}
+.DoctorsInfo h2 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.SecondDoc h3 {
+  font-weight: 400;
+  font-size: 0.85rem;
+  max-width: 23rem;
+}
+.DirectorDetails h3 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.HorizontalLineDoc {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.HorizontalLineDoc hr {
+  margin-bottom: 2rem;
+  background-color: #a4a5a1;
+  height: 0.02rem;
+}
