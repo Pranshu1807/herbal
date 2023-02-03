@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 :root {
   --green: #89bf33;

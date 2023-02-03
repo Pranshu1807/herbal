@@ -16,8 +16,8 @@ function App() {
   return (
     <div>
       <Home></Home>
-      {/* <OurProducts></OurProducts>
-      <Benefits></Benefits>
+      <OurProducts></OurProducts>
+      {/* <Benefits></Benefits>
       <DarkRoots></DarkRoots>
       <AboutUs></AboutUs>
       <TopSelling></TopSelling>
