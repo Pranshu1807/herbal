@@ -16,14 +16,14 @@ function App() {
   return (
     <div>
       <Home></Home>
-      <OurProducts></OurProducts>
+      {/* <OurProducts></OurProducts>
       <Benefits></Benefits>
       <DarkRoots></DarkRoots>
       <AboutUs></AboutUs>
       <TopSelling></TopSelling>
       <ProductDescription></ProductDescription>
       <Doctors></Doctors>
-      <ContactUs></ContactUs>
+      <ContactUs></ContactUs> */}
     </div>
   );
 }

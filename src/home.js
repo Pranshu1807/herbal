@@ -5,8 +5,12 @@ const Home = () => {
     <div className="containerHome">
       <div className="navbar">
         <ul className="nav-links">
-          <img src="/Images/logo.png" alt="" />
-          <li>Home</li>
+          <a href="#">
+            <li><img src="/Images/logo.png" alt="" /></li>
+          </a>
+          <a href="">
+            <li>Home</li>
+          </a>
           <a href="#about">
             <li>About Us</li>
           </a>
@@ -20,9 +24,9 @@ const Home = () => {
       </div>
       <div className="HomeContent">
         <div className="BannerHome">
-          <h1>DARK ROOTS</h1>
-          <h2>Let's heal Naturally</h2>
-          <h3>Mother Nature has a cure for you</h3>
+          <div>DARK ROOTS</div>
+          <div>Let's heal Naturally</div>
+          <div>Mother Nature has a cure for you</div>
           <button>READ MORE</button>
         </div>
         <div className="ImageHome">

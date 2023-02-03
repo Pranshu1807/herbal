@@ -6,7 +6,11 @@
 }
 :root {
   --green: #89bf33;
-  --white: rgba(255, 255, 255, 0.918);
+  --white: rgba(HomeContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+  }255, 255, 255, 0.918);
   --light: rgba(255, 255, 255, 0.74);
   --grey: #dfe2d7;
 }
@@ -14,81 +18,145 @@
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  height: 85vh;
+  /* height: 85vh; */
   background: #89bf33;
 }
 .nav-links {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-top: 3rem;
-  margin-left: 4rem;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 .nav-links img{
-    height: 4rem;
+    /* height: 4rem; */
     width: 3rem;
-    margin-right: 5rem;
-    border-radius: 2rem;
-    margin-top: -1rem;
-    cursor: pointer;
+    /* margin-right: 5rem; */
+    border-radius: 100%;
+    transform: translateY(-20%);
+    /* margin-top: -1rem; */
+    /* cursor: pointer; */
 }
 .nav-links a{
     text-decoration: none;
-}
+    /* background-color: red;
+    border: 2px solid black; */
+    margin-left: 4%;
+  }
 .nav-links li {
   color: var(--white);
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 1.3rem;
+  /* margin:0 2%; */
+  /* margin-right: 2rem; */
+  /* font-size: 1.3rem; */
   font-weight: 500;
   cursor: pointer;
 }
 .HomeContent {
   display: flex;
   flex-direction: row;
+  margin-top: 2%;
 }
 .ImageHome {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  margin-left: 7rem;
-  margin-top: 3.6rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-left: %; */
+  /* margin-top: 3.6rem; */
+  margin-bottom: 2%;
+  /* margin-top: 2%; */
 }
 .ImageHome img {
-  height: 11rem;
-  width: 20rem;
+  /* height: 11rem; */
+  width: 55%;
+  /* margin-right: 5%; */
 }
 .Image2 {
-  margin-top: 1rem;
-  margin-left: 7rem;
+  /* flex-basis: 2em; */
+  /* margin-top: 1rem;
+  margin-left: 7rem; */
+  transform: translate(25%,5%);
 }
 .BannerHome {
-  margin-left: 9rem;
+  flex-basis: 70%;
+  /* width: 50%; */
+  margin-left:5%;
 }
-.BannerHome h1 {
-  font-weight: 300;
+.BannerHome div:nth-child(1){
+  font-weight: 200;
   color: rgb(10, 10, 10);
-  font-size: 3.8rem;
-  margin-top: 6rem;
+  font-size: 6.5rem;
+  /* opacity: ; */
+  /* margin-top: 6rem; */
 }
-.BannerHome h2 {
-  font-weight: 300;
-  font-size: 3.6rem;
+.BannerHome div:nth-child(2) {
+  font-weight: 200;
+  font-size: 5rem;
   color: rgb(10, 10, 10);
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
-.BannerHome h3 {
+.BannerHome div:nth-child(3) {
   color: white;
-  margin-top: 1.3rem;
+  /* margin-top: 1.3rem; */
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .BannerHome button {
-  height: 2rem;
-  width: 8rem;
-  color: white;
-  padding: 0.4rem 1rem;
+  padding: 10px;
+  outline: 0;
+  border: 0;
   background-color: black;
-  margin-left: 7rem;
-  margin-top: 3rem;
-  font-weight: 500;
+  color: white;
+  /* margin: 0 auto; */
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .ImageHome{
+      /* color:red; */
+      display: none;
+    }
+    .containerHome{
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar{
+      display: none;
+    }
+    .HomeContent{
+      justify-content: center;
+      align-items: center;
+    }
+    .BannerHome{
+      /* margin-left: 25%; */
+      flex-basis: 100%;
+    }
+    .BannerHome div:nth-child(1){
+      font-weight: 200;
+      color: rgb(10, 10, 10);
+      font-size: 4rem;
+      align-content: center;
+      /* opacity: ; */
+      /* margin-top: 6rem; */
+    }
+    .BannerHome div:nth-child(2) {
+      font-weight: 200;
+      font-size: 2.5rem;
+      color: rgb(10, 10, 10);
+      align-content: center;
+      /* margin-top: 1rem; */
+    }
+    .BannerHome div:nth-child(3) {
+      color: white;
+      /* margin-top: 1.3rem; */
+      margin-top: 1%;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+    .BannerHome button {
+      /* margin-left: 0; */
+      margin-left: 12%;
+    }
 }
