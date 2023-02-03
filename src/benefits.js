@@ -10,8 +10,8 @@ const Benefits = () => {
       </div>
       <div className="banner">
         <div className="tagline">
-          <h2>Benefits of Healing Naturally</h2>
-          <h3>Medicines with a touch of Nature</h3>
+          <div>Benefits of Healing Naturally</div>
+          <div>Medicines with a touch of Nature</div>
         </div>
         <ul>
           <li>Natural Healing</li>

@@ -11,14 +11,16 @@
   --grey: #dfe2d7;
 }
 .containerBenefit {
+  margin-top: 2%;
   background-color: var(--green);
   display: flex;
   flex-direction: column;
-  height: 63vh;
+  color: white;
+  /* height: 63vh; */
 }
 .headingBenefit h1 {
   text-align: center;
-  color: var(--white);
+  /* background-color: white; */
   margin-top: 2rem;
   font-family: sans-serif;
   font-weight: 600;
@@ -34,25 +36,44 @@
   align-items: center;
   height: 0.05rem;
   background-color: white;
+  outline: none;
+  border: none;
 }
 .banner {
   margin-top: 3rem;
   margin-left: 5rem;
   color: var(--white);
 }
-.tagline h2 {
+.tagline div:nth-child(1) {
   font-weight: 400;
   font-size: 1.8rem;
   font-family: sans-serif;
   font-style: italic;
 }
-.tagline h3 {
-  margin-top: 0.3rem;
+.tagline div:nth-child(2){
+  margin-top: 0.5%;
   font-weight: 300;
   color: var(--light);
   font-size: 1.2rem;
 }
 .banner ul {
-  margin-top: 3rem;
-  font-size: 1.6rem;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px){
+  .headingBenefit h1{
+    font-size: 2.5rem;
+  }
+  .headingBenefit hr{
+    width: 25rem;
+  }
+
+  .banner ul {
+    margin-top: 10%;
+    font-size: 1.2rem;
+  }
+  .banner{
+    margin-left: 10%;
+  }
 }

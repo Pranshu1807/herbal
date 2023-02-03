@@ -75,6 +75,8 @@
   .ProductList{
     flex-direction: column;
     justify-content: center;
-    
+  }
+  .ProductOP{
+    margin-bottom: 1%;
   }
 }
