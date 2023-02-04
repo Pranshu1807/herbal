@@ -53,6 +53,12 @@
     margin-bottom: 1rem;
 }
 
+.lastHr{
+  margin-top: 1%;
+  border: 0.5px solid rgb(100, 98, 98);
+  outline:none;
+}
+
 @media only screen and (max-width: 600px){
   .productsTS h3{
     font-size: 0.8rem;

@@ -31,6 +31,7 @@ const topSelling = () => {
           <h3>Enamel organic bamboo toothbrush</h3>
         </div>
       </div>
+      <hr className="lastHr" />
     </div>
   );
 };

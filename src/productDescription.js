@@ -10,7 +10,6 @@ const productDescription = () => {
       </div>
       <div className="sectionPD">
         <div className="ProductsPD">
-          <h3>Top selling products:</h3>
           <h3>
             <span className="ProductsHeading">1. Livo fit-4G:</span> To keep
             your liver strong as a mountain

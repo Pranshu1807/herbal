@@ -21,7 +21,7 @@ function App() {
       <DarkRoots></DarkRoots>
       <AboutUs></AboutUs>
       <TopSelling></TopSelling>
-      {/* <ProductDescription></ProductDescription> */}
+      <ProductDescription></ProductDescription>
       {/* <Doctors></Doctors> */}
       {/* <ContactUs></ContactUs>  */}
     </div>

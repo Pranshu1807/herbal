@@ -13,7 +13,7 @@
 .containerPD {
   display: flex;
   flex-direction: column;
-  height: 285vh;
+  /* height: 285vh; */
   background-color: var(--grey);
 }
 .headingDiv {
@@ -22,49 +22,59 @@
   align-items: center;
 }
 .headingPD {
-  width: 21rem;
-  height: 2.2rem;
+  /* width: 21rem; */
+  /* height: 2.2rem; */
   border: 1px solid var(--green);
-  margin-top: 2rem;
+  margin-top: 2%;
   background: var(--green);
-  border-radius: 1rem;
+  border-radius: 10px;
+  padding: 1% 2%;
   text-align: center;
 }
 .headingPD h1 {
-  font-size: 1.8rem;
-  color: var(--white);
+  /* font-size: 1.8rem; */
+  color: white;
 }
 .ProductsPD {
   display: flex;
   flex-direction: column;
-  margin-left: 3rem;
-  margin-top: 2rem;
+  margin-left: 3%;
+  margin-top: 2%;
+  line-height: 1.3;
+}
+.ProductsPD span{
+  text-decoration: underline;
 }
 .ProductsPD h3 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 .ProductsHeading {
   font-weight: 700;
 }
 .ProductEnding {
-  margin-bottom: 1.2rem;
+  margin-bottom: 2%;
 }
 .HorizontalLine {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  /* margin-top: 2rem; */
+  /* margin-bottom: 1rem; */
 }
 .HorizontalLine hr {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-color: #a4a5a1;
   height: 0.02rem;
-}
-.DoubleLine {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
 }
 .DoubleLine hr {
-  margin-bottom: 0.1rem;
+  /* margin-bottom: 0.1rem; */
   background-color: #a4a5a1;
-  height: 0.02rem;
+  /* height: 0.02rem; */
+}
+
+@media only screen and (max-width: 600px){
+  .ProductEnding {
+    margin-bottom: 12%;
+  }
+  .headingPD{
+    margin-bottom: 2%;
+  }
 }
