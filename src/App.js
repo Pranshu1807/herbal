@@ -18,7 +18,7 @@ function App() {
       <Home></Home>
       <OurProducts></OurProducts>
       <Benefits></Benefits>
-      {/* <DarkRoots></DarkRoots> */}
+      <DarkRoots></DarkRoots>
       {/* <AboutUs></AboutUs>
       <TopSelling></TopSelling>
       <ProductDescription></ProductDescription>
