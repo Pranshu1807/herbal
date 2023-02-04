@@ -62,7 +62,7 @@
 .HorizontalLine hr {
   /* margin-bottom: 2rem; */
   background-color: #a4a5a1;
-  height: 0.02rem;
+  /* height: 0.02rem; */
 }
 .DoubleLine hr {
   /* margin-bottom: 0.1rem; */
@@ -72,7 +72,10 @@
 
 @media only screen and (max-width: 600px){
   .ProductEnding {
-    margin-bottom: 12%;
+      margin-bottom: 12%;
+  }
+  .ProductsPD h3{
+    font-size: 0.8rem;
   }
   .headingPD{
     margin-bottom: 2%;
