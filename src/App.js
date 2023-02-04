@@ -20,7 +20,7 @@ function App() {
       <Benefits></Benefits>
       <DarkRoots></DarkRoots>
       <AboutUs></AboutUs>
-      {/* <TopSelling></TopSelling> */}
+      <TopSelling></TopSelling>
       {/* <ProductDescription></ProductDescription> */}
       {/* <Doctors></Doctors> */}
       {/* <ContactUs></ContactUs>  */}

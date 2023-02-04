@@ -56,14 +56,17 @@
 .contentAboutUs h3 {
   font-weight: 500;
   font-size: 1.1rem;
-  margin-top: 1rem;
-  max-width: 60rem;
-  margin-left: 2rem;
+  margin-top: 1%;
+  /* max-width: 60rem; */
+  margin-left: 4%;
 }
 
 @media only screen and (max-width: 600px){
   .verticalLineAboutUs{
     display: none;
+  }
+  .contentAboutUs h3{
+    font-size: 0.9rem;
   }
 }
 
