@@ -19,11 +19,11 @@ function App() {
       <OurProducts></OurProducts>
       <Benefits></Benefits>
       <DarkRoots></DarkRoots>
-      {/* <AboutUs></AboutUs>
-      <TopSelling></TopSelling>
-      <ProductDescription></ProductDescription>
-      <Doctors></Doctors>
-      <ContactUs></ContactUs> */}
+      <AboutUs></AboutUs>
+      {/* <TopSelling></TopSelling> */}
+      {/* <ProductDescription></ProductDescription> */}
+      {/* <Doctors></Doctors> */}
+      {/* <ContactUs></ContactUs>  */}
     </div>
   );
 }
