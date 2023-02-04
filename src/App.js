@@ -22,7 +22,7 @@ function App() {
       <AboutUs></AboutUs>
       <TopSelling></TopSelling>
       <ProductDescription></ProductDescription>
-      {/* <Doctors></Doctors> */}
+      <Doctors></Doctors>
       <ContactUs></ContactUs> 
     </div>
   );

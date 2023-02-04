@@ -30,21 +30,21 @@
   border-bottom: 2.3rem solid var(--green);
   width: 50.18%;
   /* margin-left: -5.5rem; */
-  transform: translateX(-20%);
+  transform: translateX(-9%);
   /* margin-top: -0.07rem; */
 }
 .horizontalLineGrey {
   border-bottom: 2.3rem solid #d1d3cb;
-  width: 85.65rem;
+  /* width: ; */
   /* margin-left: -5.5rem; */
   margin-top: -0.03rem;
-  width: 100vw;
+  width: 80vw;
 }
 .horizontalLineRight {
   margin-top: 0.7rem;
   border-bottom: 2.3rem solid var(--green);
   width: 50vw;
-  transform: translateX(100%);
+  transform: translateX(91%);
   /* margin-left: 30rem; */
 }
 .HeadingAboutUs {
