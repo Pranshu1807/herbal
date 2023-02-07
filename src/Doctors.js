@@ -18,7 +18,7 @@ const Doctors = () => {
                 <span>Director</span>
               </div>
               <div className="doctorContent">
-              <div>Delivering quality products is our goal. As we, as human beings are not perfect, so we know it's impossible for any body or person to offer perfect service to the customers. But we insure you that we will try to remove that impossible word from our dictionary.</div>
+              <div>Delivering quality products is our goal. As we, as human beings are not perfect, so we know it is impossible for any body or person to offer perfect service to the customers. But we insure you that we will try to remove that impossible word from our dictionary.</div>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Doctors = () => {
             <div className="doctorDescription">
               <div className="title">
                 <span>Dr. Tanika Bhateja</span>
-                {/* <span>Director</span> */}
+                <span>Director</span>
               </div>
               <div className="doctorContent">
               <div>
@@ -51,15 +51,15 @@ const Doctors = () => {
             <div className="doctorDescription">
               <div className="title">
                 <span>Dr. Nitin Bhateja</span>
-                <span>Head of denral advisory committee</span>
+                <span>Head of dental advisory committee</span>
               </div>
               <div className="doctorContent">
               <ul>
                 <li>BDS, MDS(ENDODONTICS)</li>
                 <li>GOLD MEDALIST</li>
-                <li>FORMER Senior resident</li>
-                <li>(lady hardinge medical college and research centre delhi) </li>
                 <li>Currently Running Toothcare dental clinic in Gurugram</li>
+                <li>FORMER Senior resident</li>
+                <div>(lady hardinge medical college and research centre delhi) </div>
               </ul>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Doctors = () => {
             <div className="doctorDescription">
               <div className="title">
                 <span>Dr. Jitender Sharma</span>
-                <span>Dob: 07/07/1993</span>
+                {/* <span>Dob: 07/07/1993</span> */}
               </div>
               <div className="doctorContent">
               <div>
@@ -98,13 +98,13 @@ const Doctors = () => {
             <div className="doctorDescription">
               <div className="title">
                 <span>Dr. Arun Jangra</span>
-                <span>Native place palwal</span>
+                {/* <span>Native place palwal</span> */}
               </div>
               <div className="doctorContent">
               <div>
               BDS - Manav rachna dental COLLEGE AND HOSPITAL 
               <ul>
-                <li>Running Sanjivani dental clinics from 7 yrs successfully</li>
+                <li>Running Sanjivani Dental Clinic since 2016</li>
                 <li>Head of dental advisory Committee</li>
               </ul>
                 </div>

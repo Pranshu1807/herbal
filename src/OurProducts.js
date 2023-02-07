@@ -106,11 +106,20 @@ const OurProducts = () => {
             <img src="/Products/11.jpeg" alt="" />
           </div>
           <div className="ProductContent">
-            <div>Naari Intimate wash</div>
+            <div>Nari Intimate wash</div>
             <div>
               Natural intimate wash feels fresh & clean the entire day ph
               balanced
             </div>
+          </div>
+        </div>
+        <div className="ProductOP">
+          <div className="ProductImg">
+            <img src="/Images/x.jpeg" alt="" />
+          </div>
+          <div className="ProductContent">
+            <div>Enamel bamboo toothbrush</div>
+            <div>ultra soft bristles for good tooth care</div>
           </div>
         </div>
       </div>
